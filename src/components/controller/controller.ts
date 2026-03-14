@@ -1,5 +1,5 @@
 import AppLoader from './appLoader';
-import type { ArticlesResponse, SourcesResponse } from '../types/api';
+import type { ArticlesResponse, SourcesResponse } from '../types/api'
 
 class AppController extends AppLoader {
     getSources(callback: (data: SourcesResponse) => void): void {
