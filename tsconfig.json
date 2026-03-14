@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "es2015",              // Измени с "commonjs" на "es2015" или "esnext"
+    "moduleResolution": "node",       // Добавь эту строку
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": false     // Добавь или измени на false
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
